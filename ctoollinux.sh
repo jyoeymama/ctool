@@ -12,7 +12,7 @@ echo "\     \____|  | \// __ \|  / /_/  >    |(  <_> |  <_> )  |__  \|\|\|"
 echo " \______  /|__|  (____  /__\___  /|____| \____/ \____/|____/  ______"
 echo "        \/            \/  /_____/                             \/\/\/"
 echo ""
-echo "  Welcome to CraigTool – Blue Hat Ops Command Central 🛡️"
+echo "  Welcome to CraigTool – Blue Hat Ops Command Central "
 echo ""
 
 # Menu
@@ -64,7 +64,7 @@ select opt in "${options[@]}"; do
             echo "Hex: $(echo -n $data | xxd -p)"
             ;;
         "Exit")
-            echo "Peace out, Defender. CraigTool signing off 🛡️🦅"
+            echo "Peace out, Defender. CraigTool signing off "
             break
             ;;
         *) echo "⚠️ Invalid option. Try again.";;
